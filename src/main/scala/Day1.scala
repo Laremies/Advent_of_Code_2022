@@ -2,7 +2,7 @@ import scala.io.Source
 import scala.collection.mutable._
 
 object Calorie extends App {
-  val calories = Source.fromFile("calories.txt")
+  val calories = Source.fromFile("Inputs/calories.txt")
   var elfs = Map[Int, Int]()
   var elf = 0
 
