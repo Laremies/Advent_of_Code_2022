@@ -1,7 +1,7 @@
 import scala.collection.mutable._
 import scala.io.Source
 
-object Day3 extends App {
+object Rucksack extends App {
   val input = Source.fromFile("Inputs/rucksack.txt")
   val rucksacks = input.getLines
   val alphabet = ('a' to 'z').toVector
