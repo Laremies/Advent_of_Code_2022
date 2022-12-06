@@ -14,14 +14,14 @@ object Crane extends App {
                                         Stack('S', 'M', 'D', 'P', 'C'),
                                         Stack('C', 'P', 'M', 'V', 'T', 'W', 'N', 'Z'))
   val stacks2 = ArrayBuffer[Stack[Char]](Stack('V', 'C', 'W', 'L', 'R', 'M', 'F', 'Q'),
-    Stack('L', 'Q', 'D'),
-    Stack('B', 'N', 'C', 'W', 'G', 'R', 'S', 'P'),
-    Stack('G', 'Q', 'B', 'H', 'D', 'C', 'L'),
-    Stack('S', 'Z', 'F', 'L', 'G', 'V'),
-    Stack('P', 'N', 'G', 'D'),
-    Stack('W', 'C', 'F', 'V', 'P', 'Z', 'D'),
-    Stack('S', 'M', 'D', 'P', 'C'),
-    Stack('C', 'P', 'M', 'V', 'T', 'W', 'N', 'Z'))
+                                         Stack('L', 'Q', 'D'),
+                                         Stack('B', 'N', 'C', 'W', 'G', 'R', 'S', 'P'),
+                                         Stack('G', 'Q', 'B', 'H', 'D', 'C', 'L'),
+                                         Stack('S', 'Z', 'F', 'L', 'G', 'V'),
+                                         Stack('P', 'N', 'G', 'D'),
+                                         Stack('W', 'C', 'F', 'V', 'P', 'Z', 'D'),
+                                         Stack('S', 'M', 'D', 'P', 'C'),
+                                         Stack('C', 'P', 'M', 'V', 'T', 'W', 'N', 'Z'))
 
   while (moves.hasNext) {
     val move = moves.next
