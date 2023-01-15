@@ -1,6 +1,7 @@
 ## My Scala solutions for Advent of Code 2022  
 ### Solutions can be found under src/main/scala.
 (Currently on hold due to Christmas rush and other priorities.)
+
 <!--- advent_readme_stars table --->
 ## 2022 Results
 
